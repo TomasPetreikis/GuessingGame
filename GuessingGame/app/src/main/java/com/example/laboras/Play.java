@@ -97,7 +97,6 @@ public class Play extends Activity {
                     finish();
 
             } else if (turns - current_turn == 0) {
-                db.addData(name,Integer.toString(score));
                 bundle.putInt("random_number",random_number);
                 bundle.putInt("current_turns",current_turn);
                 lIntent.putExtras(bundle);
