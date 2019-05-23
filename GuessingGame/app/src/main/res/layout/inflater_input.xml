@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/idView"
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:text="@string/id"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/usernameView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:text="@string/name"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/scoreView"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="35"
+        android:text="@string/score"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+</LinearLayout>
